@@ -82,7 +82,7 @@ nav li{
 nav a{
   font-weight: 800;
   padding: 15px 10px;
-  font-family: 'Changa One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /**********************************
@@ -94,7 +94,7 @@ footer{
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ccc;
+  color: #c0b283;
 }
 
 .social-icon{
@@ -210,6 +210,10 @@ header {
   border-color: #373737;
 }
 
+footer {
+  background: #f4f4f4;
+}
+
 /* nav background on mobile */
 nav{
   background: #373737;
@@ -227,7 +231,7 @@ a{
 
 /* nav link */
 nav a, nav a:visited {
-  color: #373737;
+  color: #fff;
 }
 
 /* selected nav link color */

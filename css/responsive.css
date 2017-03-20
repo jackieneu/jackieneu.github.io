@@ -75,6 +75,23 @@ PAGE: HEADER
     /*border-bottom: 5px solid #000;*/
     margin-bottom: 60px;
   }
+  
+  
+  /* nav link */
+nav a, nav a:visited {
+  color: #373737;
+}
+  
+  /* selected nav link color */
+nav a.selected{
+  border-bottom: 5px solid #c0b283; 
+  color: #c0b283;
+}
+
+/* selected nav link color */
+nav a:hover{
+  color: #c0b283; 
+}
     
   
   
