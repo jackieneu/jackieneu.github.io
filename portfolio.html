@@ -1,83 +1,107 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Jackie Lamb</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">    
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <header>
-      <a href="index.html" id="logo">
-        <h1>Jackie Lamb</h1>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="portfolio.html" class="selected">Portfolio</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div id="wrapper">
-      <section id="portfolio">
-        <ul>
-          <li>
-              <h3>Android Application for Recycling</h3>
-              <img src="img/Reuse_Repair_Android_App.png" class="profile-photo">
-              <p><b>Final Project for Software Projects</b></p>
-              <p><i>Spring 2015</i></p>
-              <p>Developed an Android application using Android Studio for a company in Corvallis, OR. Focused on creating the app itself while team members created MySQL database, API, and website. App used GETs to access the database through the API.</p>
-            <span class="skill">java</span>
-            <span class="skill">Android Studio</span>
-          </li>
-          <li>
-              <h3>Client-Server Network Application</h3>
-              <p><b>Final Project for Intro to Computer Networks</b></p>
-              <p><i>Spring 2015</i></p>
-              <p>Created client and server programs to transfer a text file over a socket. The server program was written in C++ and the client was written in Python. The client program could request the server to send a list of the current directory or could request the server to send a text file from the current directory. </p>
-            <span class="skill">C++</span>
-            <span class="skill">Python</span>
-          </li>
-          <li>
-             <h3>User Interface for Restaurant Menu Application</h3>
-             <img src="img/Menu-App.png" class="profile-photo">
-            <p><b>Final Project for Intro to Usability Engineering</b></p>
-              <p><i>Spring 2014</i></p>
-             <p>Created a user interface for a restaurant menu app using myBalsamiq in a team of three. The process to design the user interface followed the PRICPE process of Pre-dispositions, Research, Insights, Concepts, Prototypes, and Evaluate. Performed field research, created story boards and initial prototypes, performed user testing, and modified prototype based on feedback.</p>
-            <span class="skill">myBalsamiq</span>
-          <li>
-              <h3>Photo Storage Website	</h3>
-            <img src="img/web-dev-screenshot.png" class="profile-photo">
-            <p><b>Final Project for Web Development</b></p>
-              <p><i>Winter 2014</i></p>
-              <p>Designed a website with a user login for storing a user’s photos. Users could upload and view their photos. When uploading a file, a progress bar showed the upload status using AJAX. Website and database were written in HTML, CSS, PHP, MySQL, and JavaScript.</p>
-            <span class="skill">HTML</span>
-            <span class="skill">CSS</span>
-            <span class="skill">mySQL</span>
-            <span class="skill">PHP</span>
-            <span class="skill">Javascript</span>
-          </li>
-          <li>
-              <h3>Operations Research Case Study </h3>
-            <img src="img/rogo.png" class="profile-photo">
-            <p><b>Final Project for Tool &amp; Environments for Optimization</b></p>
-              <p><i>Spring 2011</i></p>
-              <p>Used GAMS software to write and solve an optimization problem for the game of Rogo. Displayed problem analysis and description on NEOS Wiki, along with a Java applet that allowed the user to play and solve the puzzle.</p>
-            <p>View this project <a href="https://neos-guide.org/content/rogo-puzzle" target="_blank">here</a>.</p>
-            <span class="skill">GAMS</span>
-            <span class="skill">Java</span>
-          </li>
-        </ul>
-      </section>
-      <footer>
-        <a href="https://www.linkedin.com/in/jackie-lamb-a7959718" target="_blank"><img src="img/linkedin-wrap.png" alt="LinkedIn Logo" class="social-icon"></a>
-        <a href="https://github.com/lambja" target="_blank"><img src="img/github-wrap.png" alt="GitHub Logo" class="social-icon"></a>
-        <a href="mailto:jlamb@uwalumni.com?subject=GitHub_email"><img src="img/mail-64.png" class="social-icon"></a>
-      </footer>
-      </div>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jackie Lamb</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html" id="logo">
+      <h1>Jackie Lamb</h1>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html" class="selected">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<div id="wrapper">
+<div class="row">
+  <div class="grid-full">
+    <div class="slides" id="portfolio">
+        <div>
+          <h3 class="center">Android Application for Recycling</h3>
+          <a href="img/Reuse_Repair_Android_App.png" data-lightbox="image-1"><img src="img/Reuse_Repair_Android_App.png" class="profile-photo"></a>
+          <p><b>Final Project for Software Projects</b></p>
+          <p><i>Spring 2015</i></p>
+          <p>Developed an Android application using Android Studio for a company in Corvallis, OR. Focused on creating the app itself while team members created MySQL database, API, and website. App used GETs to access the database through the API.</p>
+          <span class="skill">java</span>
+          <span class="skill">Android Studio</span>
+        </div>
+        <div>
+          <h3 class="center">Client-Server Network Application</h3>
+          <p><b>Final Project for Intro to Computer Networks</b></p>
+          <p><i>Spring 2015</i></p>
+          <p>Created client and server programs to transfer a text file over a socket. The server program was written in C++ and the client was written in Python. The client program could request the server to send a list of the current directory or could request the server to send a text file from the current directory. </p>
+          <span class="skill">C++</span>
+          <span class="skill">Python</span>
+        </div>
+        <div>
+          <h3 class="center">User Interface for Restaurant Menu Application</h3>
+          <a href="img/Menu-App.png" data-lightbox="image-2"><img src="img/Menu-App.png" class="profile-photo"></a>
+          <p><b>Final Project for Intro to Usability Engineering</b></p>
+          <p><i>Spring 2014</i></p>
+          <p>Created a user interface for a restaurant menu app using myBalsamiq in a team of three. The process to design the user interface followed the PRICPE process of Pre-dispositions, Research, Insights, Concepts, Prototypes, and Evaluate. Performed field research, created story boards and initial prototypes, performed user testing, and modified prototype based on feedback.</p>
+          <span class="skill">myBalsamiq</span>
+        </div>
+        <div>
+          <h3 class="center">Photo Storage Website	</h3>
+          <a href="img/web-dev-screenshot.png" data-lightbox="image-3"><img src="img/web-dev-screenshot.png" class="profile-photo"></a>
+          <p><b>Final Project for Web Development</b></p>
+          <p><i>Winter 2014</i></p>
+          <p>Designed a website with a user login for storing a user’s photos. Users could upload and view their photos. When uploading a file, a progress bar showed the upload status using AJAX. Website and database were written in HTML, CSS, PHP, MySQL, and JavaScript.</p>
+          <span class="skill">HTML</span>
+          <span class="skill">CSS</span>
+          <span class="skill">mySQL</span>
+          <span class="skill">PHP</span>
+          <span class="skill">Javascript</span>
+        </div>
+        <div>
+          <h3 class="center">Operations Research Case Study </h3>
+          <a href="img/rogo.png" data-lightbox="image-4"><img src="img/rogo.png" class="profile-photo"></a>
+          <p><b>Final Project for Tool &amp; Environments for Optimization</b></p>
+          <p><i>Spring 2011</i></p>
+          <p>Used GAMS software to write and solve an optimization problem for the game of Rogo. Displayed problem analysis and description on NEOS Wiki, along with a Java applet that allowed the user to play and solve the puzzle.</p>
+          <p>View this project <a href="https://neos-guide.org/content/rogo-puzzle" target="_blank">here</a>.</p>
+          <span class="skill">GAMS</span>
+          <span class="skill">Java</span>
+        </div>
+    </div>
+  </div>
+</div>
+    <footer>
+      <a href="https://www.linkedin.com/in/jackie-lamb-a7959718" target="_blank"><img src="img/linkedin-wrap.png" alt="LinkedIn Logo" class="social-icon"></a>
+      <a href="https://github.com/lambja" target="_blank"><img src="img/github-wrap.png" alt="GitHub Logo" class="social-icon"></a>
+      <a href="mailto:jlamb@uwalumni.com?subject=GitHub_email"><img src="img/mail-64.png" class="social-icon"></a>
+    </footer>
+</div>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="lightbox/js/lightbox.min.js"></script>
+  <script>
+  $('.slides').slick({
+    dots: true,
+    fade: true,
+    autoplay: true
+  });
+
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
+  })
+  </script>
+
+</body>
 </html>
