@@ -1,4 +1,4 @@
 # jackielamb.github.io
-Portfolio Website
+Portfolio Website 
 
-My portfolio website, which includes an about section, resume snapshot, and a high-level display of my school projects.
+- updated to Angular v9 4/19/20
