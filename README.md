@@ -1,4 +1,4 @@
-# jackielamb.github.io
+# jackieneu.github.io
 
 This is my development portfolio. 
 
@@ -20,6 +20,6 @@ Each time I update develop branch, I run this sequence to build to master.
 
 `git pull origin develop`
 
-`ng build --prod --base-href 'https://jackielamb/jackielamb.github.io'`
+`ng build --prod --base-href 'https://jackieneu/jackieneu.github.io'`
 
 `ng deploy —branch=master`
