@@ -1,6 +1,6 @@
 # jackieneu.github.io
 
-This is my development portfolio. 
+This is my development [portfolio.](https://jackieneu.github.io/) 
 
 Deployed to Github with the help of this [walkthrough.](https://medium.com/@elanaolson/deploying-a-personal-website-to-github-pages-da2af6167f8b)
 
@@ -20,6 +20,8 @@ Each time I update develop branch, I run this sequence to build to master.
 
 `git pull origin develop`
 
+`git checkout develop`
+
 `ng build --prod --base-href 'https://jackieneu/jackieneu.github.io'`
 
-`ng deploy —branch=master`
+`ng deploy --branch=master`
