@@ -1,3 +1,9 @@
 .card-body:first-child {
   height: 315px;
 }
+
+@media (max-width: 575px) {
+  .card-body:first-child {
+    height: auto;
+  }
+}
