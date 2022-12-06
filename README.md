@@ -22,6 +22,6 @@ Each time I update develop branch, I run this sequence to build to master.
 
 `git checkout develop`
 
-`ng build --prod --base-href 'https://jackieneu/jackieneu.github.io'`
+`ng build --prod --base-href 'https://jackieneu/jackieneu.github.io'` (If this doesn't work run `npm install` and `npm i -g angular-cli-ghpages` and try again)
 
 `ng deploy --branch=master`
